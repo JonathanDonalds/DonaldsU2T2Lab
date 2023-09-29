@@ -8,5 +8,7 @@ public class RectangleRunner {
         plot2.setLength(75);
         plot2.setWidth(75);
         plot3.setWidth(75);
+
+        System.out.println("These three plots requires " + (plot1.calculateArea() + plot2.calculateArea() + plot3.calculateArea()) + " square feet of seed");
     }
 }
